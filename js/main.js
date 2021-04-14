@@ -22,7 +22,7 @@ function disapear() {
         elDiv2.style.backgroundColor = 'blue'
         toggle = false
 
-    } else if (sum < 1500) {
+    } else if (sum < 500) {
         elImage.style.marginLeft = sum + 'px'
         elImage.style.width = '100px'
         elImage.style.backgroundColor = 'yellow'
@@ -32,7 +32,7 @@ function disapear() {
         elDiv2.style.marginLeft = sum + 'px'
         elDiv2.style.width = '100px'
         elDiv2.style.backgroundColor = 'pink'
-        sum += 200
+        sum += 100
         toggle = true
     } else {
         sum = 0
@@ -42,7 +42,7 @@ function disapear() {
         return values
     }
 }
-
+var values = disapear
 function buttom (values)  {
     // debugger
  
