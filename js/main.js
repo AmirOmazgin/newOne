@@ -4,7 +4,7 @@ var car = {type:"Fiat", model:"500", color:"white"};
 console.log(car)
 var toggle = true
 
-var sum = 200
+var sum = 40
 var sumUp = 0
 
 function disapear() {
@@ -35,7 +35,7 @@ function disapear() {
         elDiv2.style.width = '100px'
         elDiv2.style.backgroundImage = 'linear-gradient(red, yellow, green)'
         elImage.style.backgroundImage = 'linear-gradient(blue, grey, white)'
-        sum += 20
+        sum += 40
         toggle = true
     } else {
         sum = 0
